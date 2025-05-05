@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <style>
+            body {
+                background: linear-gradient(135deg, rgb(27, 148, 53), #ce6868);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                
+            }
+
+            h1 {
+                color: white;
+                font-style: oblique;
+                text-align: center;
+                font-size: 70;
+                
+
+            }
+
+            .inputs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(72, 146, 159);
+                width: 400px;
+                height: 300px;
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 10px;
+            }
+
+            label {
+                font-size: 20px;
+                color: rgb(22, 24, 12);
+            }
+
+            input {
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+                width: 100%;
+            }
+
+            button {
+                padding: 10px;
+                background-color: rgb(191, 51, 96);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 14px;
+            }
+
+
+
+        </style>
+        <script>
+            function addValue(){
+                deptselect= document.getElementbyId('depSelect');
+                myOption= document.createElement('option');
+                myOption= document.text=document.getElement("t1").value;
+                myOption= document.value=document.getElement("t1").value;
+                
+            }
+
+    </head>
+    
+    <body>
+     
+        <div class="inputs">
+            <form method="POST">
+               Rafshaan ahmed
+                <label >DEPARTMENT</label>
+                <select></select>
+                <input typr="text box">
+
+                <button type="submit">ADD</button>
+                <button type="submit">REMOVE</button>
+            </form>
+            
+        </div>
+    </body>
+</html>       
